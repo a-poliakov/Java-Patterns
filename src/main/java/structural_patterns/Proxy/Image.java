@@ -6,5 +6,8 @@ package structural_patterns.Proxy;
  * @since 4.07.2017
  */
 public interface Image {
+    /**
+     * Показать изображение
+     */
     void display();
 }

@@ -4,7 +4,9 @@ import java.net.URL;
 import java.util.List;
 
 /**
- * Created by admin on 04.07.2017.
+ * Менеджер изображений
+ * @since 04.07.2017
+ * @author apolyakov
  */
 public class ImageManager {
     private Image image;
