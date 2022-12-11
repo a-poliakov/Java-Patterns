@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>behavior_patterns.visitor</OriginalElement>
+  <nodes>
+    <node x="-47.038946645677555" y="46.81747607823312">behavior_patterns.visitor.JsonElement</node>
+    <node x="-72.87263932992619" y="185.5773241651185">behavior_patterns.visitor.Visitor</node>
+    <node x="170.07206000330518" y="147.3541777238713">behavior_patterns.visitor.XmlElement</node>
+    <node x="392.3659857574264" y="130.44281267269412">behavior_patterns.visitor.Document</node>
+    <node x="110.13747582408115" y="325.2809801901073">behavior_patterns.visitor.ElementVisitor</node>
+    <node x="179.21774994648473" y="-14.630178743348033">behavior_patterns.visitor.Element</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="behavior_patterns.visitor.Document" target="behavior_patterns.visitor.Element" relationship="TO_MANY">
+      <point x="-0.0" y="-50.0" />
+      <point x="480.8659857574264" y="20.370000000000005" />
+      <point x="75.5" y="-14.999821256651963" />
+    </edge>
+    <edge source="behavior_patterns.visitor.JsonElement" target="behavior_patterns.visitor.Element" relationship="GENERALIZATION">
+      <point x="78.49994664567755" y="22.682523921766894" />
+      <point x="362.0" y="108.0" />
+      <point x="362.0" y="35.370000000000005" />
+      <point x="75.50025005351529" y="1.787433480302525E-4" />
+    </edge>
+    <edge source="behavior_patterns.visitor.Document" target="behavior_patterns.visitor.Element" relationship="GENERALIZATION">
+      <point x="-88.49998575742649" y="1.8732730589476887E-4" />
+      <point x="362.0" y="180.443" />
+      <point x="362.0" y="35.370000000000005" />
+      <point x="75.50025005351529" y="1.787433480302525E-4" />
+    </edge>
+    <edge source="behavior_patterns.visitor.ElementVisitor" target="behavior_patterns.visitor.Visitor" relationship="REALIZATION">
+      <point x="-85.0" y="0.0" />
+      <point x="12.127360670073813" y="374.7809801901073" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="behavior_patterns.visitor.XmlElement" target="behavior_patterns.visitor.Element" relationship="GENERALIZATION">
+      <point x="77.49993999669479" y="-1.7772387127479305E-4" />
+      <point x="362.0" y="185.854" />
+      <point x="362.0" y="35.370000000000005" />
+      <point x="75.50025005351529" y="1.787433480302525E-4" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.1543478260869566" showDependencies="true" x="258.5" y="215.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -4,46 +4,28 @@
   <OriginalElement>structural_patterns.Proxy</OriginalElement>
   <nodes>
     <node x="254.75" y="0.0">structural_patterns.Proxy.Image</node>
+    <node x="217.0" y="102.0">structural_patterns.Proxy.ImageManager</node>
     <node x="0.0" y="135.5">structural_patterns.Proxy.RealImage</node>
     <node x="68.92500000000001" y="316.0">structural_patterns.Proxy.ProxyImage</node>
-    <node x="217.0" y="102.0">structural_patterns.Proxy.ImageManager</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="structural_patterns.Proxy.RealImage" target="structural_patterns.Proxy.Image">
-      <point x="0.0" y="-48.5" />
-      <point x="98.5" y="82.0" />
-      <point x="273.875" y="82.0" />
-      <point x="-57.375" y="26.0" />
+    <edge source="structural_patterns.Proxy.ProxyImage" target="structural_patterns.Proxy.RealImage" relationship="CREATE">
+      <point x="-60.92500000000001" y="-38.5" />
+      <point x="0.0" y="49.5" />
     </edge>
-    <edge source="structural_patterns.Proxy.ProxyImage" target="structural_patterns.Proxy.Image">
-      <point x="60.0" y="-49.0" />
-      <point x="218.925" y="291.0" />
-      <point x="507.5" y="291.0" />
-      <point x="507.5" y="72.0" />
-      <point x="388.625" y="72.0" />
-      <point x="57.37499999999999" y="26.0" />
-    </edge>
-    <edge source="structural_patterns.Proxy.ProxyImage" target="structural_patterns.Proxy.RealImage">
-      <point x="0.0" y="-49.0" />
-      <point x="158.925" y="291.0" />
-      <point x="147.75" y="291.0" />
-      <point x="49.25" y="48.5" />
-    </edge>
-    <edge source="structural_patterns.Proxy.ImageManager" target="structural_patterns.Proxy.Image">
-      <point x="-70.0" y="-82.0" />
-      <point x="287.0" y="82.0" />
-      <point x="312.125" y="82.0" />
-      <point x="-19.125" y="26.0" />
+    <edge source="structural_patterns.Proxy.ImageManager" target="structural_patterns.Proxy.Image" relationship="TO_ONE">
+      <point x="-19.25" y="-60.5" />
+      <point x="0.0" y="27.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="254.0" y="207.0" />
+  <settings layout="Hierarchic" zoom="1.261501210653753" showDependencies="true" x="235.5" y="206.5" />
   <SelectedNodes />
   <Categories>
+    <Category>Constructors</Category>
     <Category>Fields</Category>
     <Category>Methods</Category>
     <Category>Properties</Category>
-    <Category>Constructors</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

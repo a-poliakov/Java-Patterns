@@ -9,6 +9,6 @@
 **Порождающие паттерны**<br/>
 **Структурирующие паттерны**<br/>
 * [_Proxy_](src/main/java/structural_patterns/Proxy/readme.md "Паттерн Proxy")<br/>
-* [_Executor и DAO_](src/main/java/structural_patterns/db_executor_dao/readme.md "Паттерны Executor и DAO")<br/>
+* [_Executor и DAO_](src/main/java/behavior_patterns/COR/db_executor_dao/readme.md "Паттерны Executor и DAO")<br/>
 
 **Паттерны поведения**<br/>
